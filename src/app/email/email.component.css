@@ -1,0 +1,36 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+  }
+  
+  .email-input {
+    flex: 1;
+    padding: 0;
+  }
+  
+  
+  .search-button {
+    background-color: #f44336!important; /* Custom red color */
+    color: white!important;
+    border-radius: 0;
+
+  }
+  
+  .reset-button {
+    background-color: white!important;
+    color: black!important;
+    border: 1px solid #d0d0d0!important;
+    /* Light grey border */
+    border-radius: 0;
+  }
+  
+  .reset-button:hover {
+    background-color: #f5f5f5!important; /* Slight grey background on hover */
+  }
+
+  .search-button:hover{
+    background-color: #f443363b!important;
+  }
+  

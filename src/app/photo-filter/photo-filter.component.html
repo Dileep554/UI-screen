@@ -1,0 +1,28 @@
+<div class="filter-container">
+  <mat-form-field appearance="outline" class="dropdown-field">
+    <mat-label>Album ID</mat-label>
+    <mat-select [(value)]="selectedAlbumIds" multiple>
+      <mat-option *ngFor="let albumId of albumIds" [value]="albumId">{{ albumId }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="dropdown-field">
+    <mat-label>ID</mat-label>
+    <mat-select [(value)]="selectedIds" multiple>
+      <mat-option *ngFor="let id of ids" [value]="id">{{ id }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="dropdown-field">
+    <mat-label>Title</mat-label>
+    <mat-select [(value)]="selectedTitles" multiple>
+      <mat-option *ngFor="let title of titles" [value]="title">{{ title }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="dropdown-field">
+    <mat-label>URL</mat-label>
+    <mat-select [(value)]="selectedUrls" multiple>
+      <mat-option *ngFor="let url of urls" [value]="url">{{ url }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button mat-raised-button color="warn" class="search-button" (click)="applyFilter()">Search</button>
+  <button mat-raised-button class="reset-button" (click)="resetFilter()">Reset</button>
+</div>

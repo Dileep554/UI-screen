@@ -1,0 +1,14 @@
+<app-dashboard></app-dashboard>
+
+<app-radio-button [filterCriteria]="filterCriteria" (viewChanged)="onViewChange($event)"></app-radio-button>
+
+
+
+<div *ngIf="currentView === 'option1'">
+   <app-photo-filter (filterCriteria)="onFilterChange($event)"></app-photo-filter>
+  <app-photo-table #photoTable [filterCriteria]="filterCriteria"></app-photo-table>
+</div>
+
+<div *ngIf="currentView === 'option2'">
+  <app-email></app-email>
+</div>

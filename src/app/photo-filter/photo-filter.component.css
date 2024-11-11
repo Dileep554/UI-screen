@@ -1,0 +1,66 @@
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+mat-form-field {
+    flex: 1;
+    min-width: 150px;
+}
+
+button {
+    height: 56px; /* Match the height of mat-form-field */
+}
+
+
+.dropdown-field {
+    width: 100%;
+  }
+  
+  .mat-form-field-outline {
+    border-radius: 5px; /* Adjust the border-radius as per design */
+  }
+  
+  .mat-select-trigger {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .mat-select-placeholder {
+    color: #000; /* Set the desired color for the placeholder */
+  }
+  
+  .mat-select-arrow {
+    color: red!important; /* Customize the dropdown arrow color to red */
+  }
+  
+
+  .search-button {
+    background-color: #f44336!important; /* Custom red color */
+    color: white!important;
+    border-radius: 0;
+    margin-bottom: 25px!important;
+  }
+  
+  .reset-button {
+    background-color: white!important;
+    color: black!important;
+    border: 1px solid #d0d0d0!important;
+    margin-bottom: 25px!important; /* Light grey border */
+    border-radius: 0;
+  }
+  
+  .reset-button:hover {
+    background-color: #f5f5f5!important; /* Slight grey background on hover */
+  }
+
+  .search-button:hover{
+    background-color: #f443363b!important;
+  }
+
+ ::ng-deep .mat-mdc-select-arrow svg {
+    fill: red!important;
+}

@@ -1,0 +1,120 @@
+/* General styling */
+.dashboard-container {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+/* Individual card styling */
+.dashboard-item {
+  background-color: #ffffff;
+  flex: 1;
+  height: 70px;
+  text-align: left;
+  line-height: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.boldnum {
+  font-weight: bold;
+}
+
+.dashboard-item:last-child {
+  margin-right: 0;
+}
+
+.dom {
+  font-size: 15px;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+}
+
+.boldnum {
+  margin-right: 10px;
+}
+
+.selected-count {
+  font-size: 14px;
+}
+
+/* Apply colors to each card */
+.dashboard-item:nth-child(1) {
+  background-color: #ffe6e6; /* Light pink for Domain */
+  
+}
+
+.dashboard-item:nth-child(2) {
+  background-color: #fff9e6; /* Light yellow for AD Group */
+ 
+}
+
+.dashboard-item:nth-child(3) {
+  background-color: #e6f7e6; /* Light green for Schema */
+ 
+}
+
+.dashboard-item:nth-child(4) {
+  background-color: #e6f2ff; /* Light blue for Table */
+  /* Darker blue accent */
+}
+
+.icon-and-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+.item-icon {
+  width: 20px; /* Adjust as needed */
+  height: 20px;
+  margin-right: 8px;
+}
+
+.lang{
+  background-color: rgba(234, 40, 72, 0.542);
+  margin-right: 50px;
+  padding: 15px;
+  border-radius: 40%;
+  color: white!important;
+
+}
+.total{
+  font-weight: normal;
+}
+.groups {
+  background-color: rgb(235, 194, 89);
+  margin-right: 50px;
+  padding: 15px;
+  border-radius: 40%;
+  color: white!important;
+}
+.tab{
+  background-color: rgb(95, 176, 208);
+  margin-right: 50px;
+  padding: 15px;
+  border-radius: 40%;
+  color: white!important;
+}
+.schema{
+  background-color: rgba(0, 128, 0, 0.495);
+  margin-right: 50px;
+  padding: 15px;
+  border-radius: 40%;
+  color: white!important;
+  transform: rotate(270deg);
+
+}

@@ -1,0 +1,50 @@
+<div>
+ <h5>Dashboard</h5> 
+</div>
+<div class="dashboard-container">
+  <div class="card-row">
+    <mat-card class="dashboard-item">
+      <div class="icon-and-title">
+        
+        <p class="dom">Domain ⓘ</p>
+        <mat-icon class="lang">language</mat-icon>
+      </div>
+      <div class="count-container">
+        <p class="boldnum"><span class="total">Total :</span>{{ albumIdCount }}</p>
+        <p class="selected-count" style="font-weight: bold;"><span class="total">selected: </span> {{ selectedAlbumIdsCount }}</p>
+      </div>
+    </mat-card>
+    <mat-card class="dashboard-item">
+      <div class="icon-and-title">
+        <p class="dom">AD Group ⓘ</p>
+        <mat-icon class="groups">groups</mat-icon>
+      </div>
+      <div class="count-container">
+        <p class="boldnum"><span class="total">Total :</span>{{ idCount }}</p>
+        <p class="selected-count" style="font-weight: bold;"><span class="total">selected: </span>{{ selectedIdsCount }}</p>
+      </div>
+    </mat-card>
+    <mat-card class="dashboard-item">
+      <div class="icon-and-title">
+        
+        <p class="dom">Schema ⓘ</p>
+        <mat-icon class="schema">schema</mat-icon>
+      </div>
+      <div class="count-container">
+        <p class="boldnum"><span class="total">Total :</span>{{ titleCount }}</p>
+        <p class="selected-count" style="font-weight: bold;"><span class="total">selected: </span>{{ selectedTitlesCount }}</p>
+      </div>
+    </mat-card>
+    <mat-card class="dashboard-item">
+      <div class="icon-and-title">
+  
+        <p class="dom">Table ⓘ</p>
+        <mat-icon class="tab">table</mat-icon>
+      </div>
+      <div class="count-container">
+        <p class="boldnum"><span class="total">Total :</span>{{ urlCount }}  </p>
+        <p class="selected-count" style="font-weight: bold;"><span class="total">selected: </span>{{ selectedUrlsCount }}</p>
+      </div>
+    </mat-card>
+  </div>
+</div>

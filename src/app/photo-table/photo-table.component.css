@@ -1,0 +1,154 @@
+/* Main container styling */
+.main {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.mat-elevation-z8 {
+  box-shadow: none;
+}
+
+/* Header cell styling */
+.header-cell {
+  background-color: white!important;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0!important;
+  border-bottom: 1px solid #ddd;
+  padding: 0!important;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  background-color: rgba(128, 128, 128, 0.084);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+/* Search field styling */
+.search-field {
+  width: 90%;
+  background-color: white;
+  margin: 0;
+ 
+}
+
+.mat-form-field {
+  width: 100%;
+  background-color: white!important;
+  padding-left: 30px!important;
+  margin: 0;
+  height: 10px!important;
+  
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: #f3f3f3;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.mat-input-element {
+  padding: 0!important;
+  font-size: 12px;
+}
+
+/* Checkbox styling */
+.mat-checkbox {
+  color: #333;
+}
+
+.loading-indicator {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Footer button styling */
+.footer-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.send-request-button {
+  background-color: red!important;
+  color: white!important;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+.send-request-button:hover{
+  background-color: lightgray!important;
+  color: black!important;
+}
+
+.mat-mdc-cell {
+  background-color: #fff;
+}
+
+/* Cell padding and borders */
+.custom-table th, .custom-table td {
+  padding: 7px 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+}
+
+.custom-table a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.custom-table a:hover {
+  text-decoration: underline;
+}
+
+/* Pagination styling */
+.mat-paginator {
+  background-color: #f9f9f9;
+}
+
+.mat-paginator .mat-paginator-range-label, .mat-paginator .mat-icon-button, .mat-paginator .mat-select-trigger {
+  color: #333;
+}
+
+#checkkb{
+  margin-top: -65px!important;
+  margin-left: -10px!important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.162)!important;
+  background-color: rgba(128, 128, 128, 0.084)!important;
+  padding-top: 2.6px!important;
+  padding-left: 12px!important;
+  padding-bottom: 2px!important;
+
+}
+.arrow_do{
+  color: red;
+}
+
+.header-content .mat-checkbox {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* Ensure the checkbox itself has no background or border */
+.header-content .mat-checkbox .mat-checkbox-frame {
+  background-color: transparent !important;
+  border: none !important;
+}

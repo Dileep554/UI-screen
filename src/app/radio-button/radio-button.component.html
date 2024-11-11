@@ -1,0 +1,14 @@
+<mat-radio-group [(ngModel)]="selectedOption" (change)="onOptionChange()">
+  <label>Search By:</label>
+  <mat-radio-button value="option1">Domain, AD Group, Schema, and Table</mat-radio-button>
+  <mat-radio-button value="option2">Email ID</mat-radio-button>
+</mat-radio-group>
+
+<!-- Conditionally render components based on the selected option -->
+<!-- <div *ngIf="selectedOption === 'option1'">
+  <app-photo-table [filterCriteria]="filterCriteria"></app-photo-table>
+</div>
+
+<div *ngIf="selectedOption === 'option2'">
+  <app-email></app-email>
+</div> -->
